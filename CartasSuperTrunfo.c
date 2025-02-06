@@ -3,32 +3,33 @@
 
 int main() { 
 
-    
+
  printf("DESAFIO SUPER TRUNFO\n");
 
-    
-    char PAIS;
-    int CODIGO;    
+
+
     char ESTADO;
-    double POPULACAO;
-    double AREA;
-    double PIB;
-    int PontosTuristicos = 100;
-
-    printf("Escolha um PAIS\n");
-      scanf("%s",&PAIS);
-
-    printf("Digite o CODIGO\n");
-      scanf("%d",&CODIGO);
+    char CODIGO;    
+    char CIDADE;
+    int POPULACAO;
+    float AREA;
+    float PIB;
+    int PontosTuristicos;
 
     printf("Escolha um ESTADO\n");
       scanf("%s",&ESTADO);
 
+    printf("Digite o CODIGO\n");
+      scanf("%s",&CODIGO);
+
+    printf("Escolha um CIDADE\n");
+      scanf("%s",&CIDADE);
+
     printf("Digite a POPULACAO\n");
-      scanf("%2.f",&POPULACAO);
+      scanf("%i",&POPULACAO);
 
     printf("Digite a AREA\n");
-      scanf("%f",&AREA);
+      scanf("%e",&AREA);
 
     printf("Digite o PIB\n");
       scanf("%f",&PIB);
